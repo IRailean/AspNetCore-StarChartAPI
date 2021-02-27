@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System;
+using Microsoft.EntityFrameworkCore;
 using StarChart.Models;
 
 namespace StarChart.Data
@@ -11,6 +12,5 @@ namespace StarChart.Data
             : base(options)
         {
         }
-
     }
 }
